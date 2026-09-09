@@ -35,5 +35,9 @@
 
   "estimatedPlacement": "⚠️ gegokte plaatsing",
   "noSynopsisFound": "Geen synopsis gevonden op TMDB voor deze titel.",
-  "noSynopsisAvailable": "Geen synopsis beschikbaar."
+  "noSynopsisAvailable": "Geen synopsis beschikbaar.",
+
+  "supportSectionTitle": "Steun dit project",
+  "viewOnGithub": "Bekijk op GitHub",
+  "buyMeAMonster": "Trakteer me op een Monster"
 }

@@ -109,4 +109,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get noSynopsisAvailable => 'No synopsis available.';
+
+  @override
+  String get supportSectionTitle => 'Support';
+
+  @override
+  String get viewOnGithub => 'View on GitHub';
+
+  @override
+  String get buyMeAMonster => 'Buy me a Monster';
 }

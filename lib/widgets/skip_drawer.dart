@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../l10n/app_localizations.dart';
 import '../services/content_provider.dart';
+
+const _githubUrl = 'https://github.com/Ivaldisson/mcu_tracker';
+const _koFiUrl = 'https://ko-fi.com/ivaldisson';
 
 class SkipDrawer extends ConsumerWidget {
   const SkipDrawer({super.key});
@@ -78,6 +82,22 @@ class SkipDrawer extends ConsumerWidget {
                 );
               },
             ),
+            const Divider(height: 32),
+            Text(
+              t.supportSectionTitle,
+              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+            const SizedBox(height: 12),
+            TextButton.icon(
+              icon: const Icon(Icons.code),
+              label: Text(t.viewOnGithub),
+              onPressed: () => _launchUrl(_githubUrl),
+            ),
+            TextButton.icon(
+              icon: const Icon(Icons.bolt),
+              label: Text(t.buyMeAMonster),
+              onPressed: () => _launchUrl(_koFiUrl),
+            ),
           ],
         ),
       ),
@@ -88,6 +108,10 @@ class SkipDrawer extends ConsumerWidget {
     ref.read(sortModeProvider.notifier).state = mode;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString('sort_mode', mode == SortMode.release ? 'release' : 'story');
+  }
+
+  Future<void> _launchUrl(String url) async {
+    await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
   }
 
   Widget _skipRow(

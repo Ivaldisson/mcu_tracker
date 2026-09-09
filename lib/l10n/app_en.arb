@@ -53,5 +53,9 @@
 
   "estimatedPlacement": "⚠️ estimated placement",
   "noSynopsisFound": "No synopsis found on TMDB for this title.",
-  "noSynopsisAvailable": "No synopsis available."
+  "noSynopsisAvailable": "No synopsis available.",
+
+  "supportSectionTitle": "Support",
+  "viewOnGithub": "View on GitHub",
+  "buyMeAMonster": "Buy me a Monster"
 }

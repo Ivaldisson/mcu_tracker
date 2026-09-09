@@ -271,6 +271,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No synopsis available.'**
   String get noSynopsisAvailable;
+
+  /// No description provided for @supportSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Support'**
+  String get supportSectionTitle;
+
+  /// No description provided for @viewOnGithub.
+  ///
+  /// In en, this message translates to:
+  /// **'View on GitHub'**
+  String get viewOnGithub;
+
+  /// No description provided for @buyMeAMonster.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy me a Monster'**
+  String get buyMeAMonster;
 }
 
 class _AppLocalizationsDelegate

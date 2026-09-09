@@ -110,4 +110,13 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get noSynopsisAvailable => 'Geen synopsis beschikbaar.';
+
+  @override
+  String get supportSectionTitle => 'Steun dit project';
+
+  @override
+  String get viewOnGithub => 'Bekijk op GitHub';
+
+  @override
+  String get buyMeAMonster => 'Trakteer me op een Monster';
 }
