@@ -1,0 +1,57 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "MCU Tracker",
+  "missionLogTitle": "MISSION LOG",
+
+  "errorCouldNotRefresh": "Could not refresh: {error}",
+  "@errorCouldNotRefresh": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+
+  "filterAll": "All",
+  "filterCritical": "Critical",
+  "filterCriticalHigh": "Critical+High",
+  "filterUnwatched": "Unwatched",
+  "filterMovies": "Movies",
+  "filterSeries": "Series",
+
+  "noTitlesMatchFilter": "No titles match this filter.",
+
+  "missionProgress": "Mission Progress",
+  "hoursWatched": "{hours} watched",
+  "@hoursWatched": {
+    "placeholders": { "hours": { "type": "String" } }
+  },
+  "hoursRemaining": "{hours} remaining",
+  "@hoursRemaining": {
+    "placeholders": { "hours": { "type": "String" } }
+  },
+  "hoursTotal": "{hours} total",
+  "@hoursTotal": {
+    "placeholders": { "hours": { "type": "String" } }
+  },
+
+  "bulkSkipTitle": "Bulk Skip",
+  "sortSectionTitle": "Sort Order",
+  "sortSectionDescription": "Choose how the list is ordered. Purely local, only affects your own view.",
+  "sortStoryOrder": "Chronological (story order)",
+  "sortReleaseOrder": "Release order",
+  "bulkSkipDescription": "Exclude whole importance levels from your watchbar and \"unwatched\" filter. This is purely local and personal — nobody else sees your choices.",
+  "skipOptionalLow": "Optional (low)",
+  "skipMediumOptional": "Medium + Optional",
+  "skipEverythingExceptCritical": "Everything except Critical",
+  "reenableEverything": "Re-enable everything",
+  "skippedSnackbar": "Skipped: {label}",
+  "@skippedSnackbar": {
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "skipButtonLabel": "Skip: {label}",
+  "@skipButtonLabel": {
+    "placeholders": { "label": { "type": "String" } }
+  },
+
+  "estimatedPlacement": "⚠️ estimated placement",
+  "noSynopsisFound": "No synopsis found on TMDB for this title.",
+  "noSynopsisAvailable": "No synopsis available."
+}

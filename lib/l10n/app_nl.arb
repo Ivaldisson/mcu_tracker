@@ -1,0 +1,39 @@
+{
+  "@@locale": "nl",
+
+  "appTitle": "MCU Tracker",
+  "missionLogTitle": "MISSIEDOSSIER",
+
+  "errorCouldNotRefresh": "Kon niet verversen: {error}",
+
+  "filterAll": "Alles",
+  "filterCritical": "Kritiek",
+  "filterCriticalHigh": "Kritiek+Hoog",
+  "filterUnwatched": "Nog te kijken",
+  "filterMovies": "Films",
+  "filterSeries": "Series",
+
+  "noTitlesMatchFilter": "Geen titels binnen dit filter.",
+
+  "missionProgress": "Missievoortgang",
+  "hoursWatched": "{hours} bekeken",
+  "hoursRemaining": "{hours} te gaan",
+  "hoursTotal": "{hours} totaal",
+
+  "bulkSkipTitle": "Massaal overslaan",
+  "sortSectionTitle": "Sorteervolgorde",
+  "sortSectionDescription": "Kies hoe de lijst geordend wordt. Puur lokaal, beïnvloedt alleen jouw eigen weergave.",
+  "sortStoryOrder": "Chronologisch (verhaalvolgorde)",
+  "sortReleaseOrder": "Releasevolgorde",
+  "bulkSkipDescription": "Sluit hele importantie-niveaus uit van je watchbar en \"nog te kijken\"-filter. Dit is puur lokaal en persoonlijk — niemand anders ziet jouw keuzes.",
+  "skipOptionalLow": "Optioneel (low)",
+  "skipMediumOptional": "Gemiddeld + Optioneel",
+  "skipEverythingExceptCritical": "Alles behalve Kritiek",
+  "reenableEverything": "Alles weer inschakelen",
+  "skippedSnackbar": "{label} uitgeschakeld",
+  "skipButtonLabel": "Sla over: {label}",
+
+  "estimatedPlacement": "⚠️ gegokte plaatsing",
+  "noSynopsisFound": "Geen synopsis gevonden op TMDB voor deze titel.",
+  "noSynopsisAvailable": "Geen synopsis beschikbaar."
+}
