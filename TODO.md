@@ -1,5 +1,9 @@
 # TODO — MCU Watch Tracker
 
+## Open GitHub Issues
+
+- [ ] [#2](https://github.com/Ivaldisson/mcu_tracker/issues/2) Remove Era from release order — release order currently shows era/phase section headers; that grouping should be removed and replaced with just showing the current phase.
+
 ## UI
 
 - [x] ~~Rework order-display UI: chronological view should use year sections with month subsections~~ — done.
